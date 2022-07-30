@@ -10,7 +10,7 @@ private:
     string address;
 
 public:
-    Person
+    Person()
     {
         // nocode
     }
