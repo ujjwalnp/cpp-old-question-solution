@@ -49,7 +49,6 @@ int main()
 {
     rectangle t(14.8, 4.3);
     t.output();
-
     polar p;
     p = t;
     p.show();
