@@ -1,41 +1,49 @@
-#include <iostream>
+//2016_fall_3a
+#include<bits/stdc++.h>
 using namespace std;
-class class2;
-class class1
+class Class2;
+class Class1
+ {
+        private:
+        int num1;
+        public:
+        void setvalue()
+        {
+            cout<<"Enter a  number :";
+            cin>>num1;
+            cout<<"Num1 :"<<num1<<endl;
+        }
+        friend void max(Class1 object1,Class2 object2);
+ };
+class Class2
 {
-private:
-int x;
-public:
-void setvalue (int num)
-{
-x=num ;
-}
-friend void max (class1, class2);
+        private:
+        int num2;
+        public:
+        void setvalue()
+        {
+            cout<<"Enter a  number :";
+            cin>>num2;
+            cout<<"Num2 :"<<num2<<endl;
+        }
+            friend void max(Class1 object1,Class2 object2);
 };
-class class2
-{
-private:
-int y ;
-public:
-void setvalue(int num)
-{
-y=num ;
+void max(Class1 object1,Class2 object2){
+if(object1.num1>object2.num2){
+    cout<<object1.num1<<" "<<"is maximum number.";
 }
-friend void max(class1, class2) ;
-};
-void max(class1 m, class2 n)
-{
-if (m.x>=n.y)
-cout<<"Maximum value="<<m.x ;
-else
-cout<<"Maximum value="<<n.y<<endl;
+else{
+    cout<<object2.num2<<" "<<"is maximum number.";
 }
-int main( )
+
+    
+}
+int main()
 {
-class1 p;
-class2 q;
-p.setvalue(10) ;
-q.setvalue(20) ;
-max(p, q);
-return 0;
+    Class1 c1;
+    Class2 c2;
+    c1.setvalue();
+    c2.setvalue();
+    max(c1,c2);
+    return 0;
 }
