@@ -1,3 +1,6 @@
+// done by aayush
+// Question : 
+
 // function template to calculate the sum,multiplication and average of the numbers
 #include <iostream>
 using namespace std;

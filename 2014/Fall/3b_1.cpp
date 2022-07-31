@@ -1,3 +1,6 @@
+// done by aayush
+// for question refer another file 3b or refer question bank
+
 #include <iostream>
 using namespace std;
 class nm

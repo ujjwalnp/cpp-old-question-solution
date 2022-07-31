@@ -1,3 +1,6 @@
+// done by aayush
+// Question : 
+
 // wap to swap variables of two classes via friend function
 #include <iostream>
 using namespace std;

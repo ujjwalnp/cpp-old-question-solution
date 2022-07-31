@@ -1,3 +1,6 @@
+// done by aayush
+// Question : 
+
 #include <iostream>
 using namespace std;
 class class2;

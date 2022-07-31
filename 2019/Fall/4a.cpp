@@ -1,10 +1,12 @@
+// by ankit
+
 #include <iostream>
 #include <string.h>
 using namespace std;
 class University
 {
 private:
-    char uname[20];
+    char uname[20]; 
     char location[20];
 
 public:

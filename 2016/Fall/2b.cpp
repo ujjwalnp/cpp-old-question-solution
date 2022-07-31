@@ -1,3 +1,6 @@
+// done by aayush
+// Question : 
+
 // computing the complex num via dynamic cons
 #include <iostream>
 using namespace std;

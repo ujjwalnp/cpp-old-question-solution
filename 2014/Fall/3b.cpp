@@ -5,7 +5,7 @@ using namespace std;
 
 // Class that is to be contained
 class FirstClass {
-    private :
+    private : 
         char name[50], address[50];
     
     public : 
