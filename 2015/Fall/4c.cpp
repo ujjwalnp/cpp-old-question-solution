@@ -78,8 +78,8 @@ int main()
     disp d;
     d.input();
     d.display();
-    disp1 D;
-    D.display1();
+    // disp1 D;
+    // D.display1();
 
     return 0;
 }
