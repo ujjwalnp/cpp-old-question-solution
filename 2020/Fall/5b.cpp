@@ -12,7 +12,7 @@ void swap (Generic parameter1, Generic parameter2) {
     cout<<"Swap result is : \n"<<parameter1<<endl<<parameter2<<endl;
 }
 
-int main(){
+int main(){    
     swap<int>(5, 6);
     swap<float>(5.5, 6.6);
     swap<char>('x', 'y');
