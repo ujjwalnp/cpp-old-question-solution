@@ -92,4 +92,6 @@ int main()
     q.disp();
     q.fun();
     q.subroutine();
+
+    return 0;
 }
