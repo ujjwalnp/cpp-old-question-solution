@@ -18,8 +18,8 @@ class Complex {
             this->imaginary = imaginary;
         }
         Complex operator++() {
-            real = real+1;
-            imaginary = imaginary+1;
+            real++;
+            imaginary++;
         }
         void input() {
             cout<<"Enter another complex number\nreal = ";
