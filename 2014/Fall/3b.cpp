@@ -6,7 +6,8 @@ using namespace std;
 // Class that is to be contained
 class FirstClass {
     private : 
-        char name[50], address[50];
+        char name[50];
+        address[50];
     
     public : 
         void input() {       // taking input from the user
