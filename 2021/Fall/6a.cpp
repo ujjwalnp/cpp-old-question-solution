@@ -5,9 +5,12 @@ using namespace std;
 
 class Complex {
     private :
-        int real, imaginary;
-        int real1, imaginary1;
-        int sum_real, sum_imaginary;
+    int real;
+    imaginary;
+    int real1;
+    imaginary1;
+    int sum_real;
+    sum_imaginary;
     public :
         Complex () {
             real = 5;
